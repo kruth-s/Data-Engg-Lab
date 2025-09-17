@@ -1,0 +1,1001 @@
+order_id,customer_id,order_date,product_category,quantity,price,payment_method,city
+1001,C022,01-09-2024,Electronics,2,15000,Credit Card,Bengaluru
+1002,C078,01-09-2024,Clothing,3,2500,UPI,Chennai
+1003,C091,02-09-2024,Grocery,5,1200,Debit Card,Delhi
+1004,C015,03-09-2024,Electronics,1,55000,Net Banking,Mumbai
+1005,C045,03-09-2024,Books,2,450,Credit Card,Bengaluru
+1006,C022,04-09-2024,Home Goods,1,850,Debit Card,Kolkata
+1007,C078,04-09-2024,Clothing,4,3000,UPI,Hyderabad
+1008,C011,05-09-2024,Electronics,1,120000,Net Banking,Mumbai
+1009,C005,05-09-2024,Apparel,2,750,Credit Card,Delhi
+1010,C067,06-09-2024,Grocery,10,120,UPI,Bengaluru
+1011,C045,06-09-2024,Electronics,1,90000,Credit Card,Chennai
+1012,C033,07-09-2024,Home Goods,2,2500,Debit Card,Delhi
+1013,C091,07-09-2024,Books,3,600,Net Banking,Mumbai
+1014,C015,08-09-2024,Electronics,1,32000,Credit Card,Kolkata
+1015,C056,08-09-2024,Apparel,1,1200,UPI,Hyderabad
+1016,C078,09-09-2024,Grocery,6,90,Debit Card,Bengaluru
+1017,C011,09-09-2024,Electronics,1,85000,Credit Card,Chennai
+1018,C005,10-09-2024,Home Goods,3,1500,Net Banking,Delhi
+1019,C067,10-09-2024,Books,5,250,UPI,Mumbai
+1020,C033,11-09-2024,Clothing,2,1800,Credit Card,Kolkata
+1021,C091,11-09-2024,Electronics,1,15000,Debit Card,Hyderabad
+1022,C015,12-09-2024,Apparel,4,400,Net Banking,Bengaluru
+1023,C056,12-09-2024,Grocery,2,800,Credit Card,Chennai
+1024,C078,13-09-2024,Electronics,1,25000,UPI,Delhi
+1025,C011,13-09-2024,Books,2,750,Debit Card,Mumbai
+1026,C005,14-09-2024,Home Goods,1,5000,Net Banking,Kolkata
+1027,C067,14-09-2024,Apparel,3,650,Credit Card,Hyderabad
+1028,C033,15-09-2024,Grocery,4,200,UPI,Bengaluru
+1029,C091,15-09-2024,Electronics,1,60000,Debit Card,Chennai
+1030,C015,16-09-2024,Books,2,900,Net Banking,Delhi
+1031,C056,16-09-2024,Home Goods,1,3000,Credit Card,Mumbai
+1032,C078,17-09-2024,Apparel,1,2500,UPI,Kolkata
+1033,C011,17-09-2024,Grocery,3,450,Debit Card,Hyderabad
+1034,C005,18-09-2024,Electronics,1,45000,Net Banking,Bengaluru
+1035,C067,18-09-2024,Books,2,850,Credit Card,Chennai
+1036,C033,19-09-2024,Home Goods,1,9500,UPI,Delhi
+1037,C091,19-09-2024,Apparel,5,300,Debit Card,Mumbai
+1038,C015,20-09-2024,Grocery,2,1500,Net Banking,Kolkata
+1039,C056,20-09-2024,Electronics,1,75000,Credit Card,Hyderabad
+1040,C078,21-09-2024,Books,1,350,UPI,Bengaluru
+1041,C011,21-09-2024,Home Goods,4,600,Debit Card,Chennai
+1042,C005,22-09-2024,Apparel,1,1800,Net Banking,Delhi
+1043,C067,22-09-2024,Grocery,3,750,Credit Card,Mumbai
+1044,C033,23-09-2024,Electronics,2,25000,UPI,Kolkata
+1045,C091,23-09-2024,Books,2,550,Debit Card,Hyderabad
+1046,C015,24-09-2024,Home Goods,1,4200,Net Banking,Bengaluru
+1047,C056,24-09-2024,Apparel,2,950,Credit Card,Chennai
+1048,C078,25-09-2024,Grocery,5,100,UPI,Delhi
+1049,C011,25-09-2024,Electronics,1,150000,Debit Card,Mumbai
+1050,C005,26-09-2024,Books,3,700,Net Banking,Kolkata
+1051,C067,26-09-2024,Home Goods,1,500,Credit Card,Hyderabad
+1052,C033,27-09-2024,Apparel,4,300,UPI,Bengaluru
+1053,C091,27-09-2024,Grocery,1,1200,Debit Card,Chennai
+1054,C015,28-09-2024,Electronics,1,18000,Net Banking,Delhi
+1055,C056,28-09-2024,Books,2,400,Credit Card,Mumbai
+1056,C078,29-09-2024,Home Goods,1,8000,UPI,Kolkata
+1057,C011,29-09-2024,Apparel,1,3500,Debit Card,Hyderabad
+1058,C005,30-09-2024,Grocery,3,250,Net Banking,Bengaluru
+1059,C067,30-09-2024,Electronics,1,95000,Credit Card,Chennai
+1060,C033,01-10-2024,Books,2,650,UPI,Delhi
+1061,C091,01-10-2024,Home Goods,5,180,Debit Card,Mumbai
+1062,C015,02-10-2024,Apparel,1,2200,Net Banking,Kolkata
+1063,C056,02-10-2024,Grocery,2,500,Credit Card,Hyderabad
+1064,C078,03-10-2024,Electronics,2,35000,UPI,Bengaluru
+1065,C011,03-10-2024,Books,4,150,Debit Card,Chennai
+1066,C005,04-10-2024,Home Goods,1,12000,Net Banking,Delhi
+1067,C067,04-10-2024,Apparel,1,800,Credit Card,Mumbai
+1068,C033,05-10-2024,Grocery,6,150,UPI,Kolkata
+1069,C091,05-10-2024,Electronics,1,55000,Debit Card,Hyderabad
+1070,C015,06-10-2024,Books,3,450,Net Banking,Bengaluru
+1071,C056,06-10-2024,Home Goods,2,2500,Credit Card,Chennai
+1072,C078,07-10-2024,Apparel,1,1200,UPI,Delhi
+1073,C011,07-10-2024,Grocery,5,180,Debit Card,Mumbai
+1074,C005,08-10-2024,Electronics,1,45000,Net Banking,Kolkata
+1075,C067,08-10-2024,Books,2,700,Credit Card,Hyderabad
+1076,C033,09-10-2024,Home Goods,1,950,UPI,Bengaluru
+1077,C091,09-10-2024,Apparel,3,650,Debit Card,Chennai
+1078,C015,10-10-2024,Grocery,2,1500,Net Banking,Delhi
+1079,C056,10-10-2024,Electronics,1,75000,Credit Card,Mumbai
+1080,C078,11-10-2024,Books,1,350,UPI,Kolkata
+1081,C011,11-10-2024,Home Goods,4,600,Debit Card,Hyderabad
+1082,C005,12-10-2024,Apparel,1,1800,Net Banking,Bengaluru
+1083,C067,12-10-2024,Grocery,3,750,Credit Card,Chennai
+1084,C033,13-10-2024,Electronics,2,25000,UPI,Delhi
+1085,C091,13-10-2024,Books,2,550,Debit Card,Mumbai
+1086,C015,14-10-2024,Home Goods,1,4200,Net Banking,Kolkata
+1087,C056,14-10-2024,Apparel,2,950,Credit Card,Hyderabad
+1088,C078,15-10-2024,Grocery,5,100,UPI,Bengaluru
+1089,C011,15-10-2024,Electronics,1,150000,Debit Card,Chennai
+1090,C005,16-10-2024,Books,3,700,Net Banking,Delhi
+1091,C067,16-10-2024,Home Goods,1,500,Credit Card,Mumbai
+1092,C033,17-10-2024,Apparel,4,300,UPI,Kolkata
+1093,C091,17-10-2024,Grocery,1,1200,Debit Card,Hyderabad
+1094,C015,18-10-2024,Electronics,1,18000,Net Banking,Bengaluru
+1095,C056,18-10-2024,Books,2,400,Credit Card,Chennai
+1096,C078,19-10-2024,Home Goods,1,8000,UPI,Delhi
+1097,C011,19-10-2024,Apparel,1,3500,Debit Card,Mumbai
+1098,C005,20-10-2024,Grocery,3,250,Net Banking,Kolkata
+1099,C067,20-10-2024,Electronics,1,95000,Credit Card,Hyderabad
+1100,C033,21-10-2024,Books,2,650,UPI,Bengaluru
+1101,C091,21-10-2024,Home Goods,5,180,Debit Card,Chennai
+1102,C015,22-10-2024,Apparel,1,2200,Net Banking,Delhi
+1103,C056,22-10-2024,Grocery,2,500,Credit Card,Mumbai
+1104,C078,23-10-2024,Electronics,2,35000,UPI,Kolkata
+1105,C011,23-10-2024,Books,4,150,Debit Card,Hyderabad
+1106,C005,24-10-2024,Home Goods,1,12000,Net Banking,Bengaluru
+1107,C067,24-10-2024,Apparel,1,800,Credit Card,Chennai
+1108,C033,25-10-2024,Grocery,6,150,UPI,Delhi
+1109,C091,25-10-2024,Electronics,1,55000,Debit Card,Mumbai
+1110,C015,26-10-2024,Books,3,450,Net Banking,Kolkata
+1111,C056,26-10-2024,Home Goods,2,2500,Credit Card,Hyderabad
+1112,C078,27-10-2024,Apparel,1,1200,UPI,Bengaluru
+1113,C011,27-10-2024,Grocery,5,180,Debit Card,Chennai
+1114,C005,28-10-2024,Electronics,1,45000,Net Banking,Delhi
+1115,C067,28-10-2024,Books,2,700,Credit Card,Mumbai
+1116,C033,29-10-2024,Home Goods,1,950,UPI,Kolkata
+1117,C091,29-10-2024,Apparel,3,650,Debit Card,Hyderabad
+1118,C015,30-10-2024,Grocery,2,1500,Net Banking,Bengaluru
+1119,C056,30-10-2024,Electronics,1,75000,Credit Card,Chennai
+1120,C078,31-10-2024,Books,1,350,UPI,Delhi
+1121,C011,31-10-2024,Home Goods,4,600,Debit Card,Mumbai
+1122,C005,01-11-2024,Apparel,1,1800,Net Banking,Kolkata
+1123,C067,01-11-2024,Grocery,3,750,Credit Card,Hyderabad
+1124,C033,02-11-2024,Electronics,2,25000,UPI,Bengaluru
+1125,C091,02-11-2024,Books,2,550,Debit Card,Chennai
+1126,C015,03-11-2024,Home Goods,1,4200,Net Banking,Delhi
+1127,C056,03-11-2024,Apparel,2,950,Credit Card,Mumbai
+1128,C078,04-11-2024,Grocery,5,100,UPI,Kolkata
+1129,C011,04-11-2024,Electronics,1,150000,Debit Card,Hyderabad
+1130,C005,05-11-2024,Books,3,700,Net Banking,Bengaluru
+1131,C067,05-11-2024,Home Goods,1,500,Credit Card,Chennai
+1132,C033,06-11-2024,Apparel,4,300,UPI,Delhi
+1133,C091,06-11-2024,Grocery,1,1200,Debit Card,Mumbai
+1134,C015,07-11-2024,Electronics,1,18000,Net Banking,Kolkata
+1135,C056,07-11-2024,Books,2,400,Credit Card,Hyderabad
+1136,C078,08-11-2024,Home Goods,1,8000,UPI,Bengaluru
+1137,C011,08-11-2024,Apparel,1,3500,Debit Card,Chennai
+1138,C005,09-11-2024,Grocery,3,250,Net Banking,Delhi
+1139,C067,09-11-2024,Electronics,1,95000,Credit Card,Mumbai
+1140,C033,10-11-2024,Books,2,650,UPI,Kolkata
+1141,C091,10-11-2024,Home Goods,5,180,Debit Card,Hyderabad
+1142,C015,11-11-2024,Apparel,1,2200,Net Banking,Bengaluru
+1143,C056,11-11-2024,Grocery,2,500,Credit Card,Chennai
+1144,C078,12-11-2024,Electronics,2,35000,UPI,Delhi
+1145,C011,12-11-2024,Books,4,150,Debit Card,Mumbai
+1146,C005,13-11-2024,Home Goods,1,12000,Net Banking,Kolkata
+1147,C067,13-11-2024,Apparel,1,800,Credit Card,Hyderabad
+1148,C033,14-11-2024,Grocery,6,150,UPI,Bengaluru
+1149,C091,14-11-2024,Electronics,1,55000,Debit Card,Chennai
+1150,C015,15-11-2024,Books,3,450,Net Banking,Delhi
+1151,C056,15-11-2024,Home Goods,2,2500,Credit Card,Mumbai
+1152,C078,16-11-2024,Apparel,1,1200,UPI,Kolkata
+1153,C011,16-11-2024,Grocery,5,180,Debit Card,Hyderabad
+1154,C005,17-11-2024,Electronics,1,45000,Net Banking,Bengaluru
+1155,C067,17-11-2024,Books,2,700,Credit Card,Chennai
+1156,C033,18-11-2024,Home Goods,1,950,UPI,Delhi
+1157,C091,18-11-2024,Apparel,3,650,Debit Card,Mumbai
+1158,C015,19-11-2024,Grocery,2,1500,Net Banking,Kolkata
+1159,C056,19-11-2024,Electronics,1,75000,Credit Card,Hyderabad
+1160,C078,20-11-2024,Books,1,350,UPI,Bengaluru
+1161,C011,20-11-2024,Home Goods,4,600,Debit Card,Chennai
+1162,C005,21-11-2024,Apparel,1,1800,Net Banking,Delhi
+1163,C067,21-11-2024,Grocery,3,750,Credit Card,Mumbai
+1164,C033,22-11-2024,Electronics,2,25000,UPI,Kolkata
+1165,C091,22-11-2024,Books,2,550,Debit Card,Hyderabad
+1166,C015,23-11-2024,Home Goods,1,4200,Net Banking,Bengaluru
+1167,C056,23-11-2024,Apparel,2,950,Credit Card,Chennai
+1168,C078,24-11-2024,Grocery,5,100,UPI,Delhi
+1169,C011,24-11-2024,Electronics,1,150000,Debit Card,Mumbai
+1170,C005,25-11-2024,Books,3,700,Net Banking,Kolkata
+1171,C067,25-11-2024,Home Goods,1,500,Credit Card,Hyderabad
+1172,C033,26-11-2024,Apparel,4,300,UPI,Bengaluru
+1173,C091,26-11-2024,Grocery,1,1200,Debit Card,Chennai
+1174,C015,27-11-2024,Electronics,1,18000,Net Banking,Delhi
+1175,C056,27-11-2024,Books,2,400,Credit Card,Mumbai
+1176,C078,28-11-2024,Home Goods,1,8000,UPI,Kolkata
+1177,C011,28-11-2024,Apparel,1,3500,Debit Card,Hyderabad
+1178,C005,29-11-2024,Grocery,3,250,Net Banking,Bengaluru
+1179,C067,29-11-2024,Electronics,1,95000,Credit Card,Chennai
+1180,C033,30-11-2024,Books,2,650,UPI,Delhi
+1181,C091,30-11-2024,Home Goods,5,180,Debit Card,Mumbai
+1182,C015,01-12-2024,Apparel,1,2200,Net Banking,Kolkata
+1183,C056,01-12-2024,Grocery,2,500,Credit Card,Hyderabad
+1184,C078,02-12-2024,Electronics,2,35000,UPI,Bengaluru
+1185,C011,02-12-2024,Books,4,150,Debit Card,Chennai
+1186,C005,03-12-2024,Home Goods,1,12000,Net Banking,Delhi
+1187,C067,03-12-2024,Apparel,1,800,Credit Card,Mumbai
+1188,C033,04-12-2024,Grocery,6,150,UPI,Kolkata
+1189,C091,04-12-2024,Electronics,1,55000,Debit Card,Hyderabad
+1190,C015,05-12-2024,Books,3,450,Net Banking,Bengaluru
+1191,C056,05-12-2024,Home Goods,2,2500,Credit Card,Chennai
+1192,C078,06-12-2024,Apparel,1,1200,UPI,Delhi
+1193,C011,06-12-2024,Grocery,5,180,Debit Card,Mumbai
+1194,C005,07-12-2024,Electronics,1,45000,Net Banking,Kolkata
+1195,C067,07-12-2024,Books,2,700,Credit Card,Hyderabad
+1196,C033,08-12-2024,Home Goods,1,950,UPI,Bengaluru
+1197,C091,08-12-2024,Apparel,3,650,Debit Card,Chennai
+1198,C015,09-12-2024,Grocery,2,1500,Net Banking,Delhi
+1199,C056,09-12-2024,Electronics,1,75000,Credit Card,Mumbai
+1200,C078,10-12-2024,Books,1,350,UPI,Kolkata
+1201,C011,10-12-2024,Home Goods,4,600,Debit Card,Hyderabad
+1202,C005,11-12-2024,Apparel,1,1800,Net Banking,Bengaluru
+1203,C067,11-12-2024,Grocery,3,750,Credit Card,Chennai
+1204,C033,12-12-2024,Electronics,2,25000,UPI,Delhi
+1205,C091,12-12-2024,Books,2,550,Debit Card,Mumbai
+1206,C015,13-12-2024,Home Goods,1,4200,Net Banking,Kolkata
+1207,C056,13-12-2024,Apparel,2,950,Credit Card,Hyderabad
+1208,C078,14-12-2024,Grocery,5,100,UPI,Bengaluru
+1209,C011,14-12-2024,Electronics,1,150000,Debit Card,Chennai
+1210,C005,15-12-2024,Books,3,700,Net Banking,Delhi
+1211,C067,15-12-2024,Home Goods,1,500,Credit Card,Mumbai
+1212,C033,16-12-2024,Apparel,4,300,UPI,Kolkata
+1213,C091,16-12-2024,Grocery,1,1200,Debit Card,Hyderabad
+1214,C015,17-12-2024,Electronics,1,18000,Net Banking,Bengaluru
+1215,C056,17-12-2024,Books,2,400,Credit Card,Chennai
+1216,C078,18-12-2024,Home Goods,1,8000,UPI,Delhi
+1217,C011,18-12-2024,Apparel,1,3500,Debit Card,Mumbai
+1218,C005,19-12-2024,Grocery,3,250,Net Banking,Kolkata
+1219,C067,19-12-2024,Electronics,1,95000,Credit Card,Hyderabad
+1220,C033,20-12-2024,Books,2,650,UPI,Bengaluru
+1221,C091,20-12-2024,Home Goods,5,180,Debit Card,Chennai
+1222,C015,21-12-2024,Apparel,1,2200,Net Banking,Delhi
+1223,C056,21-12-2024,Grocery,2,500,Credit Card,Mumbai
+1224,C078,22-12-2024,Electronics,2,35000,UPI,Kolkata
+1225,C011,22-12-2024,Books,4,150,Debit Card,Hyderabad
+1226,C005,23-12-2024,Home Goods,1,12000,Net Banking,Bengaluru
+1227,C067,23-12-2024,Apparel,1,800,Credit Card,Chennai
+1228,C033,24-12-2024,Grocery,6,150,UPI,Delhi
+1229,C091,24-12-2024,Electronics,1,55000,Debit Card,Mumbai
+1230,C015,25-12-2024,Books,3,450,Net Banking,Kolkata
+1231,C056,25-12-2024,Home Goods,2,2500,Credit Card,Hyderabad
+1232,C078,26-12-2024,Apparel,1,1200,UPI,Bengaluru
+1233,C011,26-12-2024,Grocery,5,180,Debit Card,Chennai
+1234,C005,27-12-2024,Electronics,1,45000,Net Banking,Delhi
+1235,C067,27-12-2024,Books,2,700,Credit Card,Mumbai
+1236,C033,28-12-2024,Home Goods,1,950,UPI,Kolkata
+1237,C091,28-12-2024,Apparel,3,650,Debit Card,Hyderabad
+1238,C015,29-12-2024,Grocery,2,1500,Net Banking,Bengaluru
+1239,C056,29-12-2024,Electronics,1,75000,Credit Card,Chennai
+1240,C078,30-12-2024,Books,1,350,UPI,Delhi
+1241,C011,30-12-2024,Home Goods,4,600,Debit Card,Mumbai
+1242,C005,31-12-2024,Apparel,1,1800,Net Banking,Kolkata
+1243,C067,31-12-2024,Grocery,3,750,Credit Card,Hyderabad
+1244,C033,01-01-2025,Electronics,2,25000,UPI,Bengaluru
+1245,C091,01-01-2025,Books,2,550,Debit Card,Chennai
+1246,C015,02-01-2025,Home Goods,1,4200,Net Banking,Delhi
+1247,C056,02-01-2025,Apparel,2,950,Credit Card,Mumbai
+1248,C078,03-01-2025,Grocery,5,100,UPI,Kolkata
+1249,C011,03-01-2025,Electronics,1,150000,Debit Card,Hyderabad
+1250,C005,04-01-2025,Books,3,700,Net Banking,Bengaluru
+1251,C067,04-01-2025,Home Goods,1,500,Credit Card,Chennai
+1252,C033,05-01-2025,Apparel,4,300,UPI,Delhi
+1253,C091,05-01-2025,Grocery,1,1200,Debit Card,Mumbai
+1254,C015,06-01-2025,Electronics,1,18000,Net Banking,Kolkata
+1255,C056,06-01-2025,Books,2,400,Credit Card,Hyderabad
+1256,C078,07-01-2025,Home Goods,1,8000,UPI,Bengaluru
+1257,C011,07-01-2025,Apparel,1,3500,Debit Card,Chennai
+1258,C005,08-01-2025,Grocery,3,250,Net Banking,Delhi
+1259,C067,08-01-2025,Electronics,1,95000,Credit Card,Mumbai
+1260,C033,09-01-2025,Books,2,650,UPI,Kolkata
+1261,C091,09-01-2025,Home Goods,5,180,Debit Card,Hyderabad
+1262,C015,10-01-2025,Apparel,1,2200,Net Banking,Bengaluru
+1263,C056,10-01-2025,Grocery,2,500,Credit Card,Chennai
+1264,C078,11-01-2025,Electronics,2,35000,UPI,Delhi
+1265,C011,11-01-2025,Books,4,150,Debit Card,Mumbai
+1266,C005,12-01-2025,Home Goods,1,12000,Net Banking,Kolkata
+1267,C067,12-01-2025,Apparel,1,800,Credit Card,Hyderabad
+1268,C033,13-01-2025,Grocery,6,150,UPI,Bengaluru
+1269,C091,13-01-2025,Electronics,1,55000,Debit Card,Chennai
+1270,C015,14-01-2025,Books,3,450,Net Banking,Delhi
+1271,C056,14-01-2025,Home Goods,2,2500,Credit Card,Mumbai
+1272,C078,15-01-2025,Apparel,1,1200,UPI,Kolkata
+1273,C011,15-01-2025,Grocery,5,180,Debit Card,Hyderabad
+1274,C005,16-01-2025,Electronics,1,45000,Net Banking,Bengaluru
+1275,C067,16-01-2025,Books,2,700,Credit Card,Chennai
+1276,C033,17-01-2025,Home Goods,1,950,UPI,Delhi
+1277,C091,17-01-2025,Apparel,3,650,Debit Card,Mumbai
+1278,C015,18-01-2025,Grocery,2,1500,Net Banking,Kolkata
+1279,C056,18-01-2025,Electronics,1,75000,Credit Card,Hyderabad
+1280,C078,19-01-2025,Books,1,350,UPI,Bengaluru
+1281,C011,19-01-2025,Home Goods,4,600,Debit Card,Chennai
+1282,C005,20-01-2025,Apparel,1,1800,Net Banking,Delhi
+1283,C067,20-01-2025,Grocery,3,750,Credit Card,Mumbai
+1284,C033,21-01-2025,Electronics,2,25000,UPI,Kolkata
+1285,C091,21-01-2025,Books,2,550,Debit Card,Hyderabad
+1286,C015,22-01-2025,Home Goods,1,4200,Net Banking,Bengaluru
+1287,C056,22-01-2025,Apparel,2,950,Credit Card,Chennai
+1288,C078,23-01-2025,Grocery,5,100,UPI,Delhi
+1289,C011,23-01-2025,Electronics,1,150000,Debit Card,Mumbai
+1290,C005,24-01-2025,Books,3,700,Net Banking,Kolkata
+1291,C067,24-01-2025,Home Goods,1,500,Credit Card,Hyderabad
+1292,C033,25-01-2025,Apparel,4,300,UPI,Bengaluru
+1293,C091,25-01-2025,Grocery,1,1200,Debit Card,Chennai
+1294,C015,26-01-2025,Electronics,1,18000,Net Banking,Delhi
+1295,C056,26-01-2025,Books,2,400,Credit Card,Mumbai
+1296,C078,27-01-2025,Home Goods,1,8000,UPI,Kolkata
+1297,C011,27-01-2025,Apparel,1,3500,Debit Card,Hyderabad
+1298,C005,28-01-2025,Grocery,3,250,Net Banking,Bengaluru
+1299,C067,28-01-2025,Electronics,1,95000,Credit Card,Chennai
+1300,C033,29-01-2025,Books,2,650,UPI,Delhi
+1301,C091,29-01-2025,Home Goods,5,180,Debit Card,Mumbai
+1302,C015,30-01-2025,Apparel,1,2200,Net Banking,Kolkata
+1303,C056,30-01-2025,Grocery,2,500,Credit Card,Hyderabad
+1304,C078,31-01-2025,Electronics,2,35000,UPI,Bengaluru
+1305,C011,31-01-2025,Books,4,150,Debit Card,Chennai
+1306,C005,01-02-2025,Home Goods,1,12000,Net Banking,Delhi
+1307,C067,01-02-2025,Apparel,1,800,Credit Card,Mumbai
+1308,C033,02-02-2025,Grocery,6,150,UPI,Kolkata
+1309,C091,02-02-2025,Electronics,1,55000,Debit Card,Hyderabad
+1310,C015,03-02-2025,Books,3,450,Net Banking,Bengaluru
+1311,C056,03-02-2025,Home Goods,2,2500,Credit Card,Chennai
+1312,C078,04-02-2025,Apparel,1,1200,UPI,Delhi
+1313,C011,04-02-2025,Grocery,5,180,Debit Card,Mumbai
+1314,C005,05-02-2025,Electronics,1,45000,Net Banking,Kolkata
+1315,C067,05-02-2025,Books,2,700,Credit Card,Hyderabad
+1316,C033,06-02-2025,Home Goods,1,950,UPI,Bengaluru
+1317,C091,06-02-2025,Apparel,3,650,Debit Card,Chennai
+1318,C015,07-02-2025,Grocery,2,1500,Net Banking,Delhi
+1319,C056,07-02-2025,Electronics,1,75000,Credit Card,Mumbai
+1320,C078,08-02-2025,Books,1,350,UPI,Kolkata
+1321,C011,08-02-2025,Home Goods,4,600,Debit Card,Hyderabad
+1322,C005,09-02-2025,Apparel,1,1800,Net Banking,Bengaluru
+1323,C067,09-02-2025,Grocery,3,750,Credit Card,Chennai
+1324,C033,10-02-2025,Electronics,2,25000,UPI,Delhi
+1325,C091,10-02-2025,Books,2,550,Debit Card,Mumbai
+1326,C015,11-02-2025,Home Goods,1,4200,Net Banking,Kolkata
+1327,C056,11-02-2025,Apparel,2,950,Credit Card,Hyderabad
+1328,C078,12-02-2025,Grocery,5,100,UPI,Bengaluru
+1329,C011,12-02-2025,Electronics,1,150000,Debit Card,Chennai
+1330,C005,13-02-2025,Books,3,700,Net Banking,Delhi
+1331,C067,13-02-2025,Home Goods,1,500,Credit Card,Mumbai
+1332,C033,14-02-2025,Apparel,4,300,UPI,Kolkata
+1333,C091,14-02-2025,Grocery,1,1200,Debit Card,Hyderabad
+1334,C015,15-02-2025,Electronics,1,18000,Net Banking,Bengaluru
+1335,C056,15-02-2025,Books,2,400,Credit Card,Chennai
+1336,C078,16-02-2025,Home Goods,1,8000,UPI,Delhi
+1337,C011,16-02-2025,Apparel,1,3500,Debit Card,Mumbai
+1338,C005,17-02-2025,Grocery,3,250,Net Banking,Kolkata
+1339,C067,17-02-2025,Electronics,1,95000,Credit Card,Hyderabad
+1340,C033,18-02-2025,Books,2,650,UPI,Bengaluru
+1341,C091,18-02-2025,Home Goods,5,180,Debit Card,Chennai
+1342,C015,19-02-2025,Apparel,1,2200,Net Banking,Delhi
+1343,C056,19-02-2025,Grocery,2,500,Credit Card,Mumbai
+1344,C078,20-02-2025,Electronics,2,35000,UPI,Kolkata
+1345,C011,20-02-2025,Books,4,150,Debit Card,Hyderabad
+1346,C005,21-02-2025,Home Goods,1,12000,Net Banking,Bengaluru
+1347,C067,21-02-2025,Apparel,1,800,Credit Card,Chennai
+1348,C033,22-02-2025,Grocery,6,150,UPI,Delhi
+1349,C091,22-02-2025,Electronics,1,55000,Debit Card,Mumbai
+1350,C015,23-02-2025,Books,3,450,Net Banking,Kolkata
+1351,C056,23-02-2025,Home Goods,2,2500,Credit Card,Hyderabad
+1352,C078,24-02-2025,Apparel,1,1200,UPI,Bengaluru
+1353,C011,24-02-2025,Grocery,5,180,Debit Card,Chennai
+1354,C005,25-02-2025,Electronics,1,45000,Net Banking,Delhi
+1355,C067,25-02-2025,Books,2,700,Credit Card,Mumbai
+1356,C033,26-02-2025,Home Goods,1,950,UPI,Kolkata
+1357,C091,26-02-2025,Apparel,3,650,Debit Card,Hyderabad
+1358,C015,27-02-2025,Grocery,2,1500,Net Banking,Bengaluru
+1359,C056,27-02-2025,Electronics,1,75000,Credit Card,Chennai
+1360,C078,28-02-2025,Books,1,350,UPI,Delhi
+1361,C011,28-02-2025,Home Goods,4,600,Debit Card,Mumbai
+1362,C005,01-03-2025,Apparel,1,1800,Net Banking,Kolkata
+1363,C067,01-03-2025,Grocery,3,750,Credit Card,Hyderabad
+1364,C033,02-03-2025,Electronics,2,25000,UPI,Bengaluru
+1365,C091,02-03-2025,Books,2,550,Debit Card,Chennai
+1366,C015,03-03-2025,Home Goods,1,4200,Net Banking,Delhi
+1367,C056,03-03-2025,Apparel,2,950,Credit Card,Mumbai
+1368,C078,04-03-2025,Grocery,5,100,UPI,Kolkata
+1369,C011,04-03-2025,Electronics,1,150000,Debit Card,Hyderabad
+1370,C005,05-03-2025,Books,3,700,Net Banking,Bengaluru
+1371,C067,05-03-2025,Home Goods,1,500,Credit Card,Chennai
+1372,C033,06-03-2025,Apparel,4,300,UPI,Delhi
+1373,C091,06-03-2025,Grocery,1,1200,Debit Card,Mumbai
+1374,C015,07-03-2025,Electronics,1,18000,Net Banking,Kolkata
+1375,C056,07-03-2025,Books,2,400,Credit Card,Hyderabad
+1376,C078,08-03-2025,Home Goods,1,8000,UPI,Bengaluru
+1377,C011,08-03-2025,Apparel,1,3500,Debit Card,Chennai
+1378,C005,09-03-2025,Grocery,3,250,Net Banking,Delhi
+1379,C067,09-03-2025,Electronics,1,95000,Credit Card,Mumbai
+1380,C033,10-03-2025,Books,2,650,UPI,Kolkata
+1381,C091,10-03-2025,Home Goods,5,180,Debit Card,Hyderabad
+1382,C015,11-03-2025,Apparel,1,2200,Net Banking,Bengaluru
+1383,C056,11-03-2025,Grocery,2,500,Credit Card,Chennai
+1384,C078,12-03-2025,Electronics,2,35000,UPI,Delhi
+1385,C011,12-03-2025,Books,4,150,Debit Card,Mumbai
+1386,C005,13-03-2025,Home Goods,1,12000,Net Banking,Kolkata
+1387,C067,13-03-2025,Apparel,1,800,Credit Card,Hyderabad
+1388,C033,14-03-2025,Grocery,6,150,UPI,Bengaluru
+1389,C091,14-03-2025,Electronics,1,55000,Debit Card,Chennai
+1390,C015,15-03-2025,Books,3,450,Net Banking,Delhi
+1391,C056,15-03-2025,Home Goods,2,2500,Credit Card,Mumbai
+1392,C078,16-03-2025,Apparel,1,1200,UPI,Kolkata
+1393,C011,16-03-2025,Grocery,5,180,Debit Card,Hyderabad
+1394,C005,17-03-2025,Electronics,1,45000,Net Banking,Bengaluru
+1395,C067,17-03-2025,Books,2,700,Credit Card,Chennai
+1396,C033,18-03-2025,Home Goods,1,950,UPI,Delhi
+1397,C091,18-03-2025,Apparel,3,650,Debit Card,Mumbai
+1398,C015,19-03-2025,Grocery,2,1500,Net Banking,Kolkata
+1399,C056,19-03-2025,Electronics,1,75000,Credit Card,Hyderabad
+1400,C078,20-03-2025,Books,1,350,UPI,Bengaluru
+1401,C011,20-03-2025,Home Goods,4,600,Debit Card,Chennai
+1402,C005,21-03-2025,Apparel,1,1800,Net Banking,Delhi
+1403,C067,21-03-2025,Grocery,3,750,Credit Card,Mumbai
+1404,C033,22-03-2025,Electronics,2,25000,UPI,Kolkata
+1405,C091,22-03-2025,Books,2,550,Debit Card,Hyderabad
+1406,C015,23-03-2025,Home Goods,1,4200,Net Banking,Bengaluru
+1407,C056,23-03-2025,Apparel,2,950,Credit Card,Chennai
+1408,C078,24-03-2025,Grocery,5,100,UPI,Delhi
+1409,C011,24-03-2025,Electronics,1,150000,Debit Card,Mumbai
+1410,C005,25-03-2025,Books,3,700,Net Banking,Kolkata
+1411,C067,25-03-2025,Home Goods,1,500,Credit Card,Hyderabad
+1412,C033,26-03-2025,Apparel,4,300,UPI,Bengaluru
+1413,C091,26-03-2025,Grocery,1,1200,Debit Card,Chennai
+1414,C015,27-03-2025,Electronics,1,18000,Net Banking,Delhi
+1415,C056,27-03-2025,Books,2,400,Credit Card,Mumbai
+1416,C078,28-03-2025,Home Goods,1,8000,UPI,Kolkata
+1417,C011,28-03-2025,Apparel,1,3500,Debit Card,Hyderabad
+1418,C005,29-03-2025,Grocery,3,250,Net Banking,Bengaluru
+1419,C067,29-03-2025,Electronics,1,95000,Credit Card,Chennai
+1420,C033,30-03-2025,Books,2,650,UPI,Delhi
+1421,C091,30-03-2025,Home Goods,5,180,Debit Card,Mumbai
+1422,C015,31-03-2025,Apparel,1,2200,Net Banking,Kolkata
+1423,C056,31-03-2025,Grocery,2,500,Credit Card,Hyderabad
+1424,C078,01-04-2025,Electronics,2,35000,UPI,Bengaluru
+1425,C011,01-04-2025,Books,4,150,Debit Card,Chennai
+1426,C005,02-04-2025,Home Goods,1,12000,Net Banking,Delhi
+1427,C067,02-04-2025,Apparel,1,800,Credit Card,Mumbai
+1428,C033,03-04-2025,Grocery,6,150,UPI,Kolkata
+1429,C091,03-04-2025,Electronics,1,55000,Debit Card,Hyderabad
+1430,C015,04-04-2025,Books,3,450,Net Banking,Bengaluru
+1431,C056,04-04-2025,Home Goods,2,2500,Credit Card,Chennai
+1432,C078,05-04-2025,Apparel,1,1200,UPI,Delhi
+1433,C011,05-04-2025,Grocery,5,180,Debit Card,Mumbai
+1434,C005,06-04-2025,Electronics,1,45000,Net Banking,Kolkata
+1435,C067,06-04-2025,Books,2,700,Credit Card,Hyderabad
+1436,C033,07-04-2025,Home Goods,1,950,UPI,Bengaluru
+1437,C091,07-04-2025,Apparel,3,650,Debit Card,Chennai
+1438,C015,08-04-2025,Grocery,2,1500,Net Banking,Delhi
+1439,C056,08-04-2025,Electronics,1,75000,Credit Card,Mumbai
+1440,C078,09-04-2025,Books,1,350,UPI,Kolkata
+1441,C011,09-04-2025,Home Goods,4,600,Debit Card,Hyderabad
+1442,C005,10-04-2025,Apparel,1,1800,Net Banking,Bengaluru
+1443,C067,10-04-2025,Grocery,3,750,Credit Card,Chennai
+1444,C033,11-04-2025,Electronics,2,25000,UPI,Delhi
+1445,C091,11-04-2025,Books,2,550,Debit Card,Mumbai
+1446,C015,12-04-2025,Home Goods,1,4200,Net Banking,Kolkata
+1447,C056,12-04-2025,Apparel,2,950,Credit Card,Hyderabad
+1448,C078,13-04-2025,Grocery,5,100,UPI,Bengaluru
+1449,C011,13-04-2025,Electronics,1,150000,Debit Card,Chennai
+1450,C005,14-04-2025,Books,3,700,Net Banking,Delhi
+1451,C067,14-04-2025,Home Goods,1,500,Credit Card,Mumbai
+1452,C033,15-04-2025,Apparel,4,300,UPI,Kolkata
+1453,C091,15-04-2025,Grocery,1,1200,Debit Card,Hyderabad
+1454,C015,16-04-2025,Electronics,1,18000,Net Banking,Bengaluru
+1455,C056,16-04-2025,Books,2,400,Credit Card,Chennai
+1456,C078,17-04-2025,Home Goods,1,8000,UPI,Delhi
+1457,C011,17-04-2025,Apparel,1,3500,Debit Card,Mumbai
+1458,C005,18-04-2025,Grocery,3,250,Net Banking,Kolkata
+1459,C067,18-04-2025,Electronics,1,95000,Credit Card,Hyderabad
+1460,C033,19-04-2025,Books,2,650,UPI,Bengaluru
+1461,C091,19-04-2025,Home Goods,5,180,Debit Card,Chennai
+1462,C015,20-04-2025,Apparel,1,2200,Net Banking,Delhi
+1463,C056,20-04-2025,Grocery,2,500,Credit Card,Mumbai
+1464,C078,21-04-2025,Electronics,2,35000,UPI,Kolkata
+1465,C011,21-04-2025,Books,4,150,Debit Card,Hyderabad
+1466,C005,22-04-2025,Home Goods,1,12000,Net Banking,Bengaluru
+1467,C067,22-04-2025,Apparel,1,800,Credit Card,Chennai
+1468,C033,23-04-2025,Grocery,6,150,UPI,Delhi
+1469,C091,23-04-2025,Electronics,1,55000,Debit Card,Mumbai
+1470,C015,24-04-2025,Books,3,450,Net Banking,Kolkata
+1471,C056,24-04-2025,Home Goods,2,2500,Credit Card,Hyderabad
+1472,C078,25-04-2025,Apparel,1,1200,UPI,Bengaluru
+1473,C011,25-04-2025,Grocery,5,180,Debit Card,Chennai
+1474,C005,26-04-2025,Electronics,1,45000,Net Banking,Delhi
+1475,C067,26-04-2025,Books,2,700,Credit Card,Mumbai
+1476,C033,27-04-2025,Home Goods,1,950,UPI,Kolkata
+1477,C091,27-04-2025,Apparel,3,650,Debit Card,Hyderabad
+1478,C015,28-04-2025,Grocery,2,1500,Net Banking,Bengaluru
+1479,C056,28-04-2025,Electronics,1,75000,Credit Card,Chennai
+1480,C078,29-04-2025,Books,1,350,UPI,Delhi
+1481,C011,29-04-2025,Home Goods,4,600,Debit Card,Mumbai
+1482,C005,30-04-2025,Apparel,1,1800,Net Banking,Kolkata
+1483,C067,30-04-2025,Grocery,3,750,Credit Card,Hyderabad
+1484,C033,01-05-2025,Electronics,2,25000,UPI,Bengaluru
+1485,C091,01-05-2025,Books,2,550,Debit Card,Chennai
+1486,C015,02-05-2025,Home Goods,1,4200,Net Banking,Delhi
+1487,C056,02-05-2025,Apparel,2,950,Credit Card,Mumbai
+1488,C078,03-05-2025,Grocery,5,100,UPI,Kolkata
+1489,C011,03-05-2025,Electronics,1,150000,Debit Card,Hyderabad
+1490,C005,04-05-2025,Books,3,700,Net Banking,Bengaluru
+1491,C067,04-05-2025,Home Goods,1,500,Credit Card,Chennai
+1492,C033,05-05-2025,Apparel,4,300,UPI,Delhi
+1493,C091,05-05-2025,Grocery,1,1200,Debit Card,Mumbai
+1494,C015,06-05-2025,Electronics,1,18000,Net Banking,Kolkata
+1495,C056,06-05-2025,Books,2,400,Credit Card,Hyderabad
+1496,C078,07-05-2025,Home Goods,1,8000,UPI,Bengaluru
+1497,C011,07-05-2025,Apparel,1,3500,Debit Card,Chennai
+1498,C005,08-05-2025,Grocery,3,250,Net Banking,Delhi
+1499,C067,08-05-2025,Electronics,1,95000,Credit Card,Mumbai
+1500,C033,09-05-2025,Books,2,650,UPI,Kolkata
+1501,C091,09-05-2025,Home Goods,5,180,Debit Card,Hyderabad
+1502,C015,10-05-2025,Apparel,1,2200,Net Banking,Bengaluru
+1503,C056,10-05-2025,Grocery,2,500,Credit Card,Chennai
+1504,C078,11-05-2025,Electronics,2,35000,UPI,Delhi
+1505,C011,11-05-2025,Books,4,150,Debit Card,Mumbai
+1506,C005,12-05-2025,Home Goods,1,12000,Net Banking,Kolkata
+1507,C067,12-05-2025,Apparel,1,800,Credit Card,Hyderabad
+1508,C033,13-05-2025,Grocery,6,150,UPI,Bengaluru
+1509,C091,13-05-2025,Electronics,1,55000,Debit Card,Chennai
+1510,C015,14-05-2025,Books,3,450,Net Banking,Delhi
+1511,C056,14-05-2025,Home Goods,2,2500,Credit Card,Mumbai
+1512,C078,15-05-2025,Apparel,1,1200,UPI,Kolkata
+1513,C011,15-05-2025,Grocery,5,180,Debit Card,Hyderabad
+1514,C005,16-05-2025,Electronics,1,45000,Net Banking,Bengaluru
+1515,C067,16-05-2025,Books,2,700,Credit Card,Chennai
+1516,C033,17-05-2025,Home Goods,1,950,UPI,Delhi
+1517,C091,17-05-2025,Apparel,3,650,Debit Card,Mumbai
+1518,C015,18-05-2025,Grocery,2,1500,Net Banking,Kolkata
+1519,C056,18-05-2025,Electronics,1,75000,Credit Card,Hyderabad
+1520,C078,19-05-2025,Books,1,350,UPI,Bengaluru
+1521,C011,19-05-2025,Home Goods,4,600,Debit Card,Chennai
+1522,C005,20-05-2025,Apparel,1,1800,Net Banking,Delhi
+1523,C067,20-05-2025,Grocery,3,750,Credit Card,Mumbai
+1524,C033,21-05-2025,Electronics,2,25000,UPI,Kolkata
+1525,C091,21-05-2025,Books,2,550,Debit Card,Hyderabad
+1526,C015,22-05-2025,Home Goods,1,4200,Net Banking,Bengaluru
+1527,C056,22-05-2025,Apparel,2,950,Credit Card,Chennai
+1528,C078,23-05-2025,Grocery,5,100,UPI,Delhi
+1529,C011,23-05-2025,Electronics,1,150000,Debit Card,Mumbai
+1530,C005,24-05-2025,Books,3,700,Net Banking,Kolkata
+1531,C067,24-05-2025,Home Goods,1,500,Credit Card,Hyderabad
+1532,C033,25-05-2025,Apparel,4,300,UPI,Bengaluru
+1533,C091,25-05-2025,Grocery,1,1200,Debit Card,Chennai
+1534,C015,26-05-2025,Electronics,1,18000,Net Banking,Delhi
+1535,C056,26-05-2025,Books,2,400,Credit Card,Mumbai
+1536,C078,27-05-2025,Home Goods,1,8000,UPI,Kolkata
+1537,C011,27-05-2025,Apparel,1,3500,Debit Card,Hyderabad
+1538,C005,28-05-2025,Grocery,3,250,Net Banking,Bengaluru
+1539,C067,28-05-2025,Electronics,1,95000,Credit Card,Chennai
+1540,C033,29-05-2025,Books,2,650,UPI,Delhi
+1541,C091,29-05-2025,Home Goods,5,180,Debit Card,Mumbai
+1542,C015,30-05-2025,Apparel,1,2200,Net Banking,Kolkata
+1543,C056,30-05-2025,Grocery,2,500,Credit Card,Hyderabad
+1544,C078,31-05-2025,Electronics,2,35000,UPI,Bengaluru
+1545,C011,31-05-2025,Books,4,150,Debit Card,Chennai
+1546,C005,01-06-2025,Home Goods,1,12000,Net Banking,Delhi
+1547,C067,01-06-2025,Apparel,1,800,Credit Card,Mumbai
+1548,C033,02-06-2025,Grocery,6,150,UPI,Kolkata
+1549,C091,02-06-2025,Electronics,1,55000,Debit Card,Hyderabad
+1550,C015,03-06-2025,Books,3,450,Net Banking,Bengaluru
+1551,C056,03-06-2025,Home Goods,2,2500,Credit Card,Chennai
+1552,C078,04-06-2025,Apparel,1,1200,UPI,Delhi
+1553,C011,04-06-2025,Grocery,5,180,Debit Card,Mumbai
+1554,C005,05-06-2025,Electronics,1,45000,Net Banking,Kolkata
+1555,C067,05-06-2025,Books,2,700,Credit Card,Hyderabad
+1556,C033,06-06-2025,Home Goods,1,950,UPI,Bengaluru
+1557,C091,06-06-2025,Apparel,3,650,Debit Card,Chennai
+1558,C015,07-06-2025,Grocery,2,1500,Net Banking,Delhi
+1559,C056,07-06-2025,Electronics,1,75000,Credit Card,Mumbai
+1560,C078,08-06-2025,Books,1,350,UPI,Kolkata
+1561,C011,08-06-2025,Home Goods,4,600,Debit Card,Hyderabad
+1562,C005,09-06-2025,Apparel,1,1800,Net Banking,Bengaluru
+1563,C067,09-06-2025,Grocery,3,750,Credit Card,Chennai
+1564,C033,10-06-2025,Electronics,2,25000,UPI,Delhi
+1565,C091,10-06-2025,Books,2,550,Debit Card,Mumbai
+1566,C015,11-06-2025,Home Goods,1,4200,Net Banking,Kolkata
+1567,C056,11-06-2025,Apparel,2,950,Credit Card,Hyderabad
+1568,C078,12-06-2025,Grocery,5,100,UPI,Bengaluru
+1569,C011,12-06-2025,Electronics,1,150000,Debit Card,Chennai
+1570,C005,13-06-2025,Books,3,700,Net Banking,Delhi
+1571,C067,13-06-2025,Home Goods,1,500,Credit Card,Mumbai
+1572,C033,14-06-2025,Apparel,4,300,UPI,Kolkata
+1573,C091,14-06-2025,Grocery,1,1200,Debit Card,Hyderabad
+1574,C015,15-06-2025,Electronics,1,18000,Net Banking,Bengaluru
+1575,C056,15-06-2025,Books,2,400,Credit Card,Chennai
+1576,C078,16-06-2025,Home Goods,1,8000,UPI,Delhi
+1577,C011,16-06-2025,Apparel,1,3500,Debit Card,Mumbai
+1578,C005,17-06-2025,Grocery,3,250,Net Banking,Kolkata
+1579,C067,17-06-2025,Electronics,1,95000,Credit Card,Hyderabad
+1580,C033,18-06-2025,Books,2,650,UPI,Bengaluru
+1581,C091,18-06-2025,Home Goods,5,180,Debit Card,Chennai
+1582,C015,19-06-2025,Apparel,1,2200,Net Banking,Delhi
+1583,C056,19-06-2025,Grocery,2,500,Credit Card,Mumbai
+1584,C078,20-06-2025,Electronics,2,35000,UPI,Kolkata
+1585,C011,20-06-2025,Books,4,150,Debit Card,Hyderabad
+1586,C005,21-06-2025,Home Goods,1,12000,Net Banking,Bengaluru
+1587,C067,21-06-2025,Apparel,1,800,Credit Card,Chennai
+1588,C033,22-06-2025,Grocery,6,150,UPI,Delhi
+1589,C091,22-06-2025,Electronics,1,55000,Debit Card,Mumbai
+1590,C015,23-06-2025,Books,3,450,Net Banking,Kolkata
+1591,C056,23-06-2025,Home Goods,2,2500,Credit Card,Hyderabad
+1592,C078,24-06-2025,Apparel,1,1200,UPI,Bengaluru
+1593,C011,24-06-2025,Grocery,5,180,Debit Card,Chennai
+1594,C005,25-06-2025,Electronics,1,45000,Net Banking,Delhi
+1595,C067,25-06-2025,Books,2,700,Credit Card,Mumbai
+1596,C033,26-06-2025,Home Goods,1,950,UPI,Kolkata
+1597,C091,26-06-2025,Apparel,3,650,Debit Card,Hyderabad
+1598,C015,27-06-2025,Grocery,2,1500,Net Banking,Bengaluru
+1599,C056,27-06-2025,Electronics,1,75000,Credit Card,Chennai
+1600,C078,28-06-2025,Books,1,350,UPI,Delhi
+1601,C011,28-06-2025,Home Goods,4,600,Debit Card,Mumbai
+1602,C005,29-06-2025,Apparel,1,1800,Net Banking,Kolkata
+1603,C067,29-06-2025,Grocery,3,750,Credit Card,Hyderabad
+1604,C033,30-06-2025,Electronics,2,25000,UPI,Bengaluru
+1605,C091,30-06-2025,Books,2,550,Debit Card,Chennai
+1606,C015,01-07-2025,Home Goods,1,4200,Net Banking,Delhi
+1607,C056,01-07-2025,Apparel,2,950,Credit Card,Mumbai
+1608,C078,02-07-2025,Grocery,5,100,UPI,Kolkata
+1609,C011,02-07-2025,Electronics,1,150000,Debit Card,Hyderabad
+1610,C005,03-07-2025,Books,3,700,Net Banking,Bengaluru
+1611,C067,03-07-2025,Home Goods,1,500,Credit Card,Chennai
+1612,C033,04-07-2025,Apparel,4,300,UPI,Delhi
+1613,C091,04-07-2025,Grocery,1,1200,Debit Card,Mumbai
+1614,C015,05-07-2025,Electronics,1,18000,Net Banking,Kolkata
+1615,C056,05-07-2025,Books,2,400,Credit Card,Hyderabad
+1616,C078,06-07-2025,Home Goods,1,8000,UPI,Bengaluru
+1617,C011,06-07-2025,Apparel,1,3500,Debit Card,Chennai
+1618,C005,07-07-2025,Grocery,3,250,Net Banking,Delhi
+1619,C067,07-07-2025,Electronics,1,95000,Credit Card,Mumbai
+1620,C033,08-07-2025,Books,2,650,UPI,Kolkata
+1621,C091,08-07-2025,Home Goods,5,180,Debit Card,Hyderabad
+1622,C015,09-07-2025,Apparel,1,2200,Net Banking,Bengaluru
+1623,C056,09-07-2025,Grocery,2,500,Credit Card,Chennai
+1624,C078,10-07-2025,Electronics,2,35000,UPI,Delhi
+1625,C011,10-07-2025,Books,4,150,Debit Card,Mumbai
+1626,C005,11-07-2025,Home Goods,1,12000,Net Banking,Kolkata
+1627,C067,11-07-2025,Apparel,1,800,Credit Card,Hyderabad
+1628,C033,12-07-2025,Grocery,6,150,UPI,Bengaluru
+1629,C091,12-07-2025,Electronics,1,55000,Debit Card,Chennai
+1630,C015,13-07-2025,Books,3,450,Net Banking,Delhi
+1631,C056,13-07-2025,Home Goods,2,2500,Credit Card,Mumbai
+1632,C078,14-07-2025,Apparel,1,1200,UPI,Kolkata
+1633,C011,14-07-2025,Grocery,5,180,Debit Card,Hyderabad
+1634,C005,15-07-2025,Electronics,1,45000,Net Banking,Bengaluru
+1635,C067,15-07-2025,Books,2,700,Credit Card,Chennai
+1636,C033,16-07-2025,Home Goods,1,950,UPI,Delhi
+1637,C091,16-07-2025,Apparel,3,650,Debit Card,Mumbai
+1638,C015,17-07-2025,Grocery,2,1500,Net Banking,Kolkata
+1639,C056,17-07-2025,Electronics,1,75000,Credit Card,Hyderabad
+1640,C078,18-07-2025,Books,1,350,UPI,Bengaluru
+1641,C011,18-07-2025,Home Goods,4,600,Debit Card,Chennai
+1642,C005,19-07-2025,Apparel,1,1800,Net Banking,Delhi
+1643,C067,19-07-2025,Grocery,3,750,Credit Card,Mumbai
+1644,C033,20-07-2025,Electronics,2,25000,UPI,Kolkata
+1645,C091,20-07-2025,Books,2,550,Debit Card,Hyderabad
+1646,C015,21-07-2025,Home Goods,1,4200,Net Banking,Bengaluru
+1647,C056,21-07-2025,Apparel,2,950,Credit Card,Chennai
+1648,C078,22-07-2025,Grocery,5,100,UPI,Delhi
+1649,C011,22-07-2025,Electronics,1,150000,Debit Card,Mumbai
+1650,C005,23-07-2025,Books,3,700,Net Banking,Kolkata
+1651,C067,23-07-2025,Home Goods,1,500,Credit Card,Hyderabad
+1652,C033,24-07-2025,Apparel,4,300,UPI,Bengaluru
+1653,C091,24-07-2025,Grocery,1,1200,Debit Card,Chennai
+1654,C015,25-07-2025,Electronics,1,18000,Net Banking,Delhi
+1655,C056,25-07-2025,Books,2,400,Credit Card,Mumbai
+1656,C078,26-07-2025,Home Goods,1,8000,UPI,Kolkata
+1657,C011,26-07-2025,Apparel,1,3500,Debit Card,Hyderabad
+1658,C005,27-07-2025,Grocery,3,250,Net Banking,Bengaluru
+1659,C067,27-07-2025,Electronics,1,95000,Credit Card,Chennai
+1660,C033,28-07-2025,Books,2,650,UPI,Delhi
+1661,C091,28-07-2025,Home Goods,5,180,Debit Card,Mumbai
+1662,C015,29-07-2025,Apparel,1,2200,Net Banking,Kolkata
+1663,C056,29-07-2025,Grocery,2,500,Credit Card,Hyderabad
+1664,C078,30-07-2025,Electronics,2,35000,UPI,Bengaluru
+1665,C011,30-07-2025,Books,4,150,Debit Card,Chennai
+1666,C005,31-07-2025,Home Goods,1,12000,Net Banking,Delhi
+1667,C067,31-07-2025,Apparel,1,800,Credit Card,Mumbai
+1668,C033,01-08-2025,Grocery,6,150,UPI,Kolkata
+1669,C091,01-08-2025,Electronics,1,55000,Debit Card,Hyderabad
+1670,C015,02-08-2025,Books,3,450,Net Banking,Bengaluru
+1671,C056,02-08-2025,Home Goods,2,2500,Credit Card,Chennai
+1672,C078,03-08-2025,Apparel,1,1200,UPI,Delhi
+1673,C011,03-08-2025,Grocery,5,180,Debit Card,Mumbai
+1674,C005,04-08-2025,Electronics,1,45000,Net Banking,Kolkata
+1675,C067,04-08-2025,Books,2,700,Credit Card,Hyderabad
+1676,C033,05-08-2025,Home Goods,1,950,UPI,Bengaluru
+1677,C091,05-08-2025,Apparel,3,650,Debit Card,Chennai
+1678,C015,06-08-2025,Grocery,2,1500,Net Banking,Delhi
+1679,C056,06-08-2025,Electronics,1,75000,Credit Card,Mumbai
+1680,C078,07-08-2025,Books,1,350,UPI,Kolkata
+1681,C011,07-08-2025,Home Goods,4,600,Debit Card,Hyderabad
+1682,C005,08-08-2025,Apparel,1,1800,Net Banking,Bengaluru
+1683,C067,08-08-2025,Grocery,3,750,Credit Card,Chennai
+1684,C033,09-08-2025,Electronics,2,25000,UPI,Delhi
+1685,C091,09-08-2025,Books,2,550,Debit Card,Mumbai
+1686,C015,10-08-2025,Home Goods,1,4200,Net Banking,Kolkata
+1687,C056,10-08-2025,Apparel,2,950,Credit Card,Hyderabad
+1688,C078,11-08-2025,Grocery,5,100,UPI,Bengaluru
+1689,C011,11-08-2025,Electronics,1,150000,Debit Card,Chennai
+1690,C005,12-08-2025,Books,3,700,Net Banking,Delhi
+1691,C067,12-08-2025,Home Goods,1,500,Credit Card,Mumbai
+1692,C033,13-08-2025,Apparel,4,300,UPI,Kolkata
+1693,C091,13-08-2025,Grocery,1,1200,Debit Card,Hyderabad
+1694,C015,14-08-2025,Electronics,1,18000,Net Banking,Bengaluru
+1695,C056,14-08-2025,Books,2,400,Credit Card,Chennai
+1696,C078,15-08-2025,Home Goods,1,8000,UPI,Delhi
+1697,C011,15-08-2025,Apparel,1,3500,Debit Card,Mumbai
+1698,C005,16-08-2025,Grocery,3,250,Net Banking,Kolkata
+1699,C067,16-08-2025,Electronics,1,95000,Credit Card,Hyderabad
+1700,C033,17-08-2025,Books,2,650,UPI,Bengaluru
+1701,C091,17-08-2025,Home Goods,5,180,Debit Card,Chennai
+1702,C015,18-08-2025,Apparel,1,2200,Net Banking,Delhi
+1703,C056,18-08-2025,Grocery,2,500,Credit Card,Mumbai
+1704,C078,19-08-2025,Electronics,2,35000,UPI,Kolkata
+1705,C011,19-08-2025,Books,4,150,Debit Card,Hyderabad
+1706,C005,20-08-2025,Home Goods,1,12000,Net Banking,Bengaluru
+1707,C067,20-08-2025,Apparel,1,800,Credit Card,Chennai
+1708,C033,21-08-2025,Grocery,6,150,UPI,Delhi
+1709,C091,21-08-2025,Electronics,1,55000,Debit Card,Mumbai
+1710,C015,22-08-2025,Books,3,450,Net Banking,Kolkata
+1711,C056,22-08-2025,Home Goods,2,2500,Credit Card,Hyderabad
+1712,C078,23-08-2025,Apparel,1,1200,UPI,Bengaluru
+1713,C011,23-08-2025,Grocery,5,180,Debit Card,Chennai
+1714,C005,24-08-2025,Electronics,1,45000,Net Banking,Delhi
+1715,C067,24-08-2025,Books,2,700,Credit Card,Mumbai
+1716,C033,25-08-2025,Home Goods,1,950,UPI,Kolkata
+1717,C091,25-08-2025,Apparel,3,650,Debit Card,Hyderabad
+1718,C015,26-08-2025,Grocery,2,1500,Net Banking,Bengaluru
+1719,C056,26-08-2025,Electronics,1,75000,Credit Card,Chennai
+1720,C078,27-08-2025,Books,1,350,UPI,Delhi
+1721,C011,27-08-2025,Home Goods,4,600,Debit Card,Mumbai
+1722,C005,28-08-2025,Apparel,1,1800,Net Banking,Kolkata
+1723,C067,28-08-2025,Grocery,3,750,Credit Card,Hyderabad
+1724,C033,29-08-2025,Electronics,2,25000,UPI,Bengaluru
+1725,C091,29-08-2025,Books,2,550,Debit Card,Chennai
+1726,C015,30-08-2025,Home Goods,1,4200,Net Banking,Delhi
+1727,C056,30-08-2025,Apparel,2,950,Credit Card,Mumbai
+1728,C078,31-08-2025,Grocery,5,100,UPI,Kolkata
+1729,C011,31-08-2025,Electronics,1,150000,Debit Card,Hyderabad
+1730,C005,01-09-2025,Books,3,700,Net Banking,Bengaluru
+1731,C067,01-09-2025,Home Goods,1,500,Credit Card,Chennai
+1732,C033,02-09-2025,Apparel,4,300,UPI,Delhi
+1733,C091,02-09-2025,Grocery,1,1200,Debit Card,Mumbai
+1734,C015,03-09-2025,Electronics,1,18000,Net Banking,Kolkata
+1735,C056,03-09-2025,Books,2,400,Credit Card,Hyderabad
+1736,C078,04-09-2025,Home Goods,1,8000,UPI,Bengaluru
+1737,C011,04-09-2025,Apparel,1,3500,Debit Card,Chennai
+1738,C005,05-09-2025,Grocery,3,250,Net Banking,Delhi
+1739,C067,05-09-2025,Electronics,1,95000,Credit Card,Mumbai
+1740,C033,06-09-2025,Books,2,650,UPI,Kolkata
+1741,C091,06-09-2025,Home Goods,5,180,Debit Card,Hyderabad
+1742,C015,07-09-2025,Apparel,1,2200,Net Banking,Bengaluru
+1743,C056,07-09-2025,Grocery,2,500,Credit Card,Chennai
+1744,C078,08-09-2025,Electronics,2,35000,UPI,Delhi
+1745,C011,08-09-2025,Books,4,150,Debit Card,Mumbai
+1746,C005,09-09-2025,Home Goods,1,12000,Net Banking,Kolkata
+1747,C067,09-09-2025,Apparel,1,800,Credit Card,Hyderabad
+1748,C033,10-09-2025,Grocery,6,150,UPI,Bengaluru
+1749,C091,10-09-2025,Electronics,1,55000,Debit Card,Chennai
+1750,C015,11-09-2025,Books,3,450,Net Banking,Delhi
+1751,C056,11-09-2025,Home Goods,2,2500,Credit Card,Mumbai
+1752,C078,12-09-2025,Apparel,1,1200,UPI,Kolkata
+1753,C011,12-09-2025,Grocery,5,180,Debit Card,Hyderabad
+1754,C005,13-09-2025,Electronics,1,45000,Net Banking,Bengaluru
+1755,C067,13-09-2025,Books,2,700,Credit Card,Chennai
+1756,C033,14-09-2025,Home Goods,1,950,UPI,Delhi
+1757,C091,14-09-2025,Apparel,3,650,Debit Card,Mumbai
+1758,C015,15-09-2025,Grocery,2,1500,Net Banking,Kolkata
+1759,C056,15-09-2025,Electronics,1,75000,Credit Card,Hyderabad
+1760,C078,16-09-2025,Books,1,350,UPI,Bengaluru
+1761,C011,16-09-2025,Home Goods,4,600,Debit Card,Chennai
+1762,C005,17-09-2025,Apparel,1,1800,Net Banking,Delhi
+1763,C067,17-09-2025,Grocery,3,750,Credit Card,Mumbai
+1764,C033,18-09-2025,Electronics,2,25000,UPI,Kolkata
+1765,C091,18-09-2025,Books,2,550,Debit Card,Hyderabad
+1766,C015,19-09-2025,Home Goods,1,4200,Net Banking,Bengaluru
+1767,C056,19-09-2025,Apparel,2,950,Credit Card,Chennai
+1768,C078,20-09-2025,Grocery,5,100,UPI,Delhi
+1769,C011,20-09-2025,Electronics,1,150000,Debit Card,Mumbai
+1770,C005,21-09-2025,Books,3,700,Net Banking,Kolkata
+1771,C067,21-09-2025,Home Goods,1,500,Credit Card,Hyderabad
+1772,C033,22-09-2025,Apparel,4,300,UPI,Bengaluru
+1773,C091,22-09-2025,Grocery,1,1200,Debit Card,Chennai
+1774,C015,23-09-2025,Electronics,1,18000,Net Banking,Delhi
+1775,C056,23-09-2025,Books,2,400,Credit Card,Mumbai
+1776,C078,24-09-2025,Home Goods,1,8000,UPI,Kolkata
+1777,C011,24-09-2025,Apparel,1,3500,Debit Card,Hyderabad
+1778,C005,25-09-2025,Grocery,3,250,Net Banking,Bengaluru
+1779,C067,25-09-2025,Electronics,1,95000,Credit Card,Chennai
+1780,C033,26-09-2025,Books,2,650,UPI,Delhi
+1781,C091,26-09-2025,Home Goods,5,180,Debit Card,Mumbai
+1782,C015,27-09-2025,Apparel,1,2200,Net Banking,Kolkata
+1783,C056,27-09-2025,Grocery,2,500,Credit Card,Hyderabad
+1784,C078,28-09-2025,Electronics,2,35000,UPI,Bengaluru
+1785,C011,28-09-2025,Books,4,150,Debit Card,Chennai
+1786,C005,29-09-2025,Home Goods,1,12000,Net Banking,Delhi
+1787,C067,29-09-2025,Apparel,1,800,Credit Card,Mumbai
+1788,C033,30-09-2025,Grocery,6,150,UPI,Kolkata
+1789,C091,30-09-2025,Electronics,1,55000,Debit Card,Hyderabad
+1790,C015,01-10-2025,Books,3,450,Net Banking,Bengaluru
+1791,C056,01-10-2025,Home Goods,2,2500,Credit Card,Chennai
+1792,C078,02-10-2025,Apparel,1,1200,UPI,Delhi
+1793,C011,02-10-2025,Grocery,5,180,Debit Card,Mumbai
+1794,C005,03-10-2025,Electronics,1,45000,Net Banking,Kolkata
+1795,C067,03-10-2025,Books,2,700,Credit Card,Hyderabad
+1796,C033,04-10-2025,Home Goods,1,950,UPI,Bengaluru
+1797,C091,04-10-2025,Apparel,3,650,Debit Card,Chennai
+1798,C015,05-10-2025,Grocery,2,1500,Net Banking,Delhi
+1799,C056,05-10-2025,Electronics,1,75000,Credit Card,Mumbai
+1800,C078,06-10-2025,Books,1,350,UPI,Kolkata
+1801,C011,06-10-2025,Home Goods,4,600,Debit Card,Hyderabad
+1802,C005,07-10-2025,Apparel,1,1800,Net Banking,Bengaluru
+1803,C067,07-10-2025,Grocery,3,750,Credit Card,Chennai
+1804,C033,08-10-2025,Electronics,2,25000,UPI,Delhi
+1805,C091,08-10-2025,Books,2,550,Debit Card,Mumbai
+1806,C015,09-10-2025,Home Goods,1,4200,Net Banking,Kolkata
+1807,C056,09-10-2025,Apparel,2,950,Credit Card,Hyderabad
+1808,C078,10-10-2025,Grocery,5,100,UPI,Bengaluru
+1809,C011,10-10-2025,Electronics,1,150000,Debit Card,Chennai
+1810,C005,11-10-2025,Books,3,700,Net Banking,Delhi
+1811,C067,11-10-2025,Home Goods,1,500,Credit Card,Mumbai
+1812,C033,12-10-2025,Apparel,4,300,UPI,Kolkata
+1813,C091,12-10-2025,Grocery,1,1200,Debit Card,Hyderabad
+1814,C015,13-10-2025,Electronics,1,18000,Net Banking,Bengaluru
+1815,C056,13-10-2025,Books,2,400,Credit Card,Chennai
+1816,C078,14-10-2025,Home Goods,1,8000,UPI,Delhi
+1817,C011,14-10-2025,Apparel,1,3500,Debit Card,Mumbai
+1818,C005,15-10-2025,Grocery,3,250,Net Banking,Kolkata
+1819,C067,15-10-2025,Electronics,1,95000,Credit Card,Hyderabad
+1820,C033,16-10-2025,Books,2,650,UPI,Bengaluru
+1821,C091,16-10-2025,Home Goods,5,180,Debit Card,Chennai
+1822,C015,17-10-2025,Apparel,1,2200,Net Banking,Delhi
+1823,C056,17-10-2025,Grocery,2,500,Credit Card,Mumbai
+1824,C078,18-10-2025,Electronics,2,35000,UPI,Kolkata
+1825,C011,18-10-2025,Books,4,150,Debit Card,Hyderabad
+1826,C005,19-10-2025,Home Goods,1,12000,Net Banking,Bengaluru
+1827,C067,19-10-2025,Apparel,1,800,Credit Card,Chennai
+1828,C033,20-10-2025,Grocery,6,150,UPI,Delhi
+1829,C091,20-10-2025,Electronics,1,55000,Debit Card,Mumbai
+1830,C015,21-10-2025,Books,3,450,Net Banking,Kolkata
+1831,C056,21-10-2025,Home Goods,2,2500,Credit Card,Hyderabad
+1832,C078,22-10-2025,Apparel,1,1200,UPI,Bengaluru
+1833,C011,22-10-2025,Grocery,5,180,Debit Card,Chennai
+1834,C005,23-10-2025,Electronics,1,45000,Net Banking,Delhi
+1835,C067,23-10-2025,Books,2,700,Credit Card,Mumbai
+1836,C033,24-10-2025,Home Goods,1,950,UPI,Kolkata
+1837,C091,24-10-2025,Apparel,3,650,Debit Card,Hyderabad
+1838,C015,25-10-2025,Grocery,2,1500,Net Banking,Bengaluru
+1839,C056,25-10-2025,Electronics,1,75000,Credit Card,Chennai
+1840,C078,26-10-2025,Books,1,350,UPI,Delhi
+1841,C011,26-10-2025,Home Goods,4,600,Debit Card,Mumbai
+1842,C005,27-10-2025,Apparel,1,1800,Net Banking,Kolkata
+1843,C067,27-10-2025,Grocery,3,750,Credit Card,Hyderabad
+1844,C033,28-10-2025,Electronics,2,25000,UPI,Bengaluru
+1845,C091,28-10-2025,Books,2,550,Debit Card,Chennai
+1846,C015,29-10-2025,Home Goods,1,4200,Net Banking,Delhi
+1847,C056,29-10-2025,Apparel,2,950,Credit Card,Mumbai
+1848,C078,30-10-2025,Grocery,5,100,UPI,Kolkata
+1849,C011,30-10-2025,Electronics,1,150000,Debit Card,Hyderabad
+1850,C005,31-10-2025,Books,3,700,Net Banking,Bengaluru
+1851,C067,31-10-2025,Home Goods,1,500,Credit Card,Chennai
+1852,C033,01-11-2025,Apparel,4,300,UPI,Delhi
+1853,C091,01-11-2025,Grocery,1,1200,Debit Card,Mumbai
+1854,C015,02-11-2025,Electronics,1,18000,Net Banking,Kolkata
+1855,C056,02-11-2025,Books,2,400,Credit Card,Hyderabad
+1856,C078,03-11-2025,Home Goods,1,8000,UPI,Bengaluru
+1857,C011,03-11-2025,Apparel,1,3500,Debit Card,Chennai
+1858,C005,04-11-2025,Grocery,3,250,Net Banking,Delhi
+1859,C067,04-11-2025,Electronics,1,95000,Credit Card,Mumbai
+1860,C033,05-11-2025,Books,2,650,UPI,Kolkata
+1861,C091,05-11-2025,Home Goods,5,180,Debit Card,Hyderabad
+1862,C015,06-11-2025,Apparel,1,2200,Net Banking,Bengaluru
+1863,C056,06-11-2025,Grocery,2,500,Credit Card,Chennai
+1864,C078,07-11-2025,Electronics,2,35000,UPI,Delhi
+1865,C011,07-11-2025,Books,4,150,Debit Card,Mumbai
+1866,C005,08-11-2025,Home Goods,1,12000,Net Banking,Kolkata
+1867,C067,08-11-2025,Apparel,1,800,Credit Card,Hyderabad
+1868,C033,09-11-2025,Grocery,6,150,UPI,Bengaluru
+1869,C091,09-11-2025,Electronics,1,55000,Debit Card,Chennai
+1870,C015,10-11-2025,Books,3,450,Net Banking,Delhi
+1871,C056,10-11-2025,Home Goods,2,2500,Credit Card,Mumbai
+1872,C078,11-11-2025,Apparel,1,1200,UPI,Kolkata
+1873,C011,11-11-2025,Grocery,5,180,Debit Card,Hyderabad
+1874,C005,12-11-2025,Electronics,1,45000,Net Banking,Bengaluru
+1875,C067,12-11-2025,Books,2,700,Credit Card,Chennai
+1876,C033,13-11-2025,Home Goods,1,950,UPI,Delhi
+1877,C091,13-11-2025,Apparel,3,650,Debit Card,Mumbai
+1878,C015,14-11-2025,Grocery,2,1500,Net Banking,Kolkata
+1879,C056,14-11-2025,Electronics,1,75000,Credit Card,Hyderabad
+1880,C078,15-11-2025,Books,1,350,UPI,Bengaluru
+1881,C011,15-11-2025,Home Goods,4,600,Debit Card,Chennai
+1882,C005,16-11-2025,Apparel,1,1800,Net Banking,Delhi
+1883,C067,16-11-2025,Grocery,3,750,Credit Card,Mumbai
+1884,C033,17-11-2025,Electronics,2,25000,UPI,Kolkata
+1885,C091,17-11-2025,Books,2,550,Debit Card,Hyderabad
+1886,C015,18-11-2025,Home Goods,1,4200,Net Banking,Bengaluru
+1887,C056,18-11-2025,Apparel,2,950,Credit Card,Chennai
+1888,C078,19-11-2025,Grocery,5,100,UPI,Delhi
+1889,C011,19-11-2025,Electronics,1,150000,Debit Card,Mumbai
+1890,C005,20-11-2025,Books,3,700,Net Banking,Kolkata
+1891,C067,20-11-2025,Home Goods,1,500,Credit Card,Hyderabad
+1892,C033,21-11-2025,Apparel,4,300,UPI,Bengaluru
+1893,C091,21-11-2025,Grocery,1,1200,Debit Card,Chennai
+1894,C015,22-11-2025,Electronics,1,18000,Net Banking,Delhi
+1895,C056,22-11-2025,Books,2,400,Credit Card,Mumbai
+1896,C078,23-11-2025,Home Goods,1,8000,UPI,Kolkata
+1897,C011,23-11-2025,Apparel,1,3500,Debit Card,Hyderabad
+1898,C005,24-11-2025,Grocery,3,250,Net Banking,Bengaluru
+1899,C067,24-11-2025,Electronics,1,95000,Credit Card,Chennai
+1900,C033,25-11-2025,Books,2,650,UPI,Delhi
+1901,C091,25-11-2025,Home Goods,5,180,Debit Card,Mumbai
+1902,C015,26-11-2025,Apparel,1,2200,Net Banking,Kolkata
+1903,C056,26-11-2025,Grocery,2,500,Credit Card,Hyderabad
+1904,C078,27-11-2025,Electronics,2,35000,UPI,Bengaluru
+1905,C011,27-11-2025,Books,4,150,Debit Card,Chennai
+1906,C005,28-11-2025,Home Goods,1,12000,Net Banking,Delhi
+1907,C067,28-11-2025,Apparel,1,800,Credit Card,Mumbai
+1908,C033,29-11-2025,Grocery,6,150,UPI,Kolkata
+1909,C091,29-11-2025,Electronics,1,55000,Debit Card,Hyderabad
+1910,C015,30-11-2025,Books,3,450,Net Banking,Bengaluru
+1911,C056,30-11-2025,Home Goods,2,2500,Credit Card,Chennai
+1912,C078,01-12-2025,Apparel,1,1200,UPI,Delhi
+1913,C011,01-12-2025,Grocery,5,180,Debit Card,Mumbai
+1914,C005,02-12-2025,Electronics,1,45000,Net Banking,Kolkata
+1915,C067,02-12-2025,Books,2,700,Credit Card,Hyderabad
+1916,C033,03-12-2025,Home Goods,1,950,UPI,Bengaluru
+1917,C091,03-12-2025,Apparel,3,650,Debit Card,Chennai
+1918,C015,04-12-2025,Grocery,2,1500,Net Banking,Delhi
+1919,C056,04-12-2025,Electronics,1,75000,Credit Card,Mumbai
+1920,C078,05-12-2025,Books,1,350,UPI,Kolkata
+1921,C011,05-12-2025,Home Goods,4,600,Debit Card,Hyderabad
+1922,C005,06-12-2025,Apparel,1,1800,Net Banking,Bengaluru
+1923,C067,06-12-2025,Grocery,3,750,Credit Card,Chennai
+1924,C033,07-12-2025,Electronics,2,25000,UPI,Delhi
+1925,C091,07-12-2025,Books,2,550,Debit Card,Mumbai
+1926,C015,08-12-2025,Home Goods,1,4200,Net Banking,Kolkata
+1927,C056,08-12-2025,Apparel,2,950,Credit Card,Hyderabad
+1928,C078,09-12-2025,Grocery,5,100,UPI,Bengaluru
+1929,C011,09-12-2025,Electronics,1,150000,Debit Card,Chennai
+1930,C005,10-12-2025,Books,3,700,Net Banking,Delhi
+1931,C067,10-12-2025,Home Goods,1,500,Credit Card,Mumbai
+1932,C033,11-12-2025,Apparel,4,300,UPI,Kolkata
+1933,C091,11-12-2025,Grocery,1,1200,Debit Card,Hyderabad
+1934,C015,12-12-2025,Electronics,1,18000,Net Banking,Bengaluru
+1935,C056,12-12-2025,Books,2,400,Credit Card,Chennai
+1936,C078,13-12-2025,Home Goods,1,8000,UPI,Delhi
+1937,C011,13-12-2025,Apparel,1,3500,Debit Card,Mumbai
+1938,C005,14-12-2025,Grocery,3,250,Net Banking,Kolkata
+1939,C067,14-12-2025,Electronics,1,95000,Credit Card,Hyderabad
+1940,C033,15-12-2025,Books,2,650,UPI,Bengaluru
+1941,C091,15-12-2025,Home Goods,5,180,Debit Card,Chennai
+1942,C015,16-12-2025,Apparel,1,2200,Net Banking,Delhi
+1943,C056,16-12-2025,Grocery,2,500,Credit Card,Mumbai
+1944,C078,17-12-2025,Electronics,2,35000,UPI,Kolkata
+1945,C011,17-12-2025,Books,4,150,Debit Card,Hyderabad
+1946,C005,18-12-2025,Home Goods,1,12000,Net Banking,Bengaluru
+1947,C067,18-12-2025,Apparel,1,800,Credit Card,Chennai
+1948,C033,19-12-2025,Grocery,6,150,UPI,Delhi
+1949,C091,19-12-2025,Electronics,1,55000,Debit Card,Mumbai
+1950,C015,20-12-2025,Books,3,450,Net Banking,Kolkata
+1951,C056,20-12-2025,Home Goods,2,2500,Credit Card,Hyderabad
+1952,C078,21-12-2025,Apparel,1,1200,UPI,Bengaluru
+1953,C011,21-12-2025,Grocery,5,180,Debit Card,Chennai
+1954,C005,22-12-2025,Electronics,1,45000,Net Banking,Delhi
+1955,C067,22-12-2025,Books,2,700,Credit Card,Mumbai
+1956,C033,23-12-2025,Home Goods,1,950,UPI,Kolkata
+1957,C091,23-12-2025,Apparel,3,650,Debit Card,Hyderabad
+1958,C015,24-12-2025,Grocery,2,1500,Net Banking,Bengaluru
+1959,C056,24-12-2025,Electronics,1,75000,Credit Card,Chennai
+1960,C078,25-12-2025,Books,1,350,UPI,Delhi
+1961,C011,25-12-2025,Home Goods,4,600,Debit Card,Mumbai
+1962,C005,26-12-2025,Apparel,1,1800,Net Banking,Kolkata
+1963,C067,26-12-2025,Grocery,3,750,Credit Card,Hyderabad
+1964,C033,27-12-2025,Electronics,2,25000,UPI,Bengaluru
+1965,C091,27-12-2025,Books,2,550,Debit Card,Chennai
+1966,C015,28-12-2025,Home Goods,1,4200,Net Banking,Delhi
+1967,C056,28-12-2025,Apparel,2,950,Credit Card,Mumbai
+1968,C078,29-12-2025,Grocery,5,100,UPI,Kolkata
+1969,C011,29-12-2025,Electronics,1,150000,Debit Card,Hyderabad
+1970,C005,30-12-2025,Books,3,700,Net Banking,Bengaluru
+1971,C067,30-12-2025,Home Goods,1,500,Credit Card,Chennai
+1972,C033,31-12-2025,Apparel,4,300,UPI,Delhi
+1973,C091,31-12-2025,Grocery,1,1200,Debit Card,Mumbai
+1974,C015,01-01-2026,Electronics,1,18000,Net Banking,Kolkata
+1975,C056,01-01-2026,Books,2,400,Credit Card,Hyderabad
+1976,C078,02-01-2026,Home Goods,1,8000,UPI,Bengaluru
+1977,C011,02-01-2026,Apparel,1,3500,Debit Card,Chennai
+1978,C005,03-01-2026,Grocery,3,250,Net Banking,Delhi
+1979,C067,03-01-2026,Electronics,1,95000,Credit Card,Mumbai
+1980,C033,04-01-2026,Books,2,650,UPI,Kolkata
+1981,C091,04-01-2026,Home Goods,5,180,Debit Card,Hyderabad
+1982,C015,05-01-2026,Apparel,1,2200,Net Banking,Bengaluru
+1983,C056,05-01-2026,Grocery,2,500,Credit Card,Chennai
+1984,C078,06-01-2026,Electronics,2,35000,UPI,Delhi
+1985,C011,06-01-2026,Books,4,150,Debit Card,Mumbai
+1986,C005,07-01-2026,Home Goods,1,12000,Net Banking,Kolkata
+1987,C067,07-01-2026,Apparel,1,800,Credit Card,Hyderabad
+1988,C033,08-01-2026,Grocery,6,150,UPI,Bengaluru
+1989,C091,08-01-2026,Electronics,1,55000,Debit Card,Chennai
+1990,C015,09-01-2026,Books,3,450,Net Banking,Delhi
+1991,C056,09-01-2026,Home Goods,2,2500,Credit Card,Mumbai
+1992,C078,10-01-2026,Apparel,1,1200,UPI,Kolkata
+1993,C011,10-01-2026,Grocery,5,180,Debit Card,Hyderabad
+1994,C005,11-01-2026,Electronics,1,45000,Net Banking,Bengaluru
+1995,C067,11-01-2026,Books,2,700,Credit Card,Chennai
+1996,C033,12-01-2026,Home Goods,1,950,UPI,Delhi
+1997,C091,12-01-2026,Apparel,3,650,Debit Card,Mumbai
+1998,C015,13-01-2026,Grocery,2,1500,Net Banking,Kolkata
+1999,C056,13-01-2026,Electronics,1,75000,Credit Card,Hyderabad
+2000,C078,14-01-2026,Books,1,350,UPI,Bengaluru
