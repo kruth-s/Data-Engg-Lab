@@ -1,0 +1,354 @@
+Cypher Query Commands
+
+CREATE SECTION (1–15)
+
+1. Create user nodes: Alice, Bob, Charlie with emails
+
+CREATE (:User {name: 'Alice', email: 'alice@example.com'});
+CREATE (:User {name: 'Bob', email: 'bob@example.com'});
+CREATE (:User {name: 'Charlie', email: 'charlie@example.com'});
+
+2. Create product nodes
+
+CREATE (:Product {name: 'Product1', category: 'Electronics', price: 49.99});
+CREATE (:Product {name: 'Product2', category: 'Books', price: 29.99});
+CREATE (:Product {name: 'Product3', category: 'Clothing', price: 39.99});
+
+3. Create category nodes
+
+CREATE (:Category {name: 'Electronics'});
+CREATE (:Category {name: 'Books'});
+CREATE (:Category {name: 'Clothing'});
+
+4. Create brand nodes
+
+CREATE (:Brand {name: 'BrandA'});
+CREATE (:Brand {name: 'BrandB'});
+CREATE (:Brand {name: 'BrandC'});
+
+5. Create review nodes
+
+CREATE (:Review {name: 'Review1', rating: 5});
+CREATE (:Review {name: 'Review2', rating: 4});
+CREATE (:Review {name: 'Review3', rating: 3});
+
+6. Create BOUGHT relationship: Alice bought Product1
+
+MATCH (u:User {name:'Alice'}), (p:Product {name:'Product1'})
+CREATE (u)-[:BOUGHT {date: date('2025-10-14'), quantity: 2, price_paid: 99.98}]->(p);
+
+7. Create BOUGHT relationship: Bob bought Product2
+
+MATCH (u:User {name:'Bob'}), (p:Product {name:'Product2'})
+CREATE (u)-[:BOUGHT {date: date('2025-10-13'), quantity: 1, price_paid: 29.99}]->(p);
+
+8. Create VIEWED relationship: Charlie viewed Product3
+
+MATCH (u:User {name:'Charlie'}), (p:Product {name:'Product3'})
+CREATE (u)-[:VIEWED {date: date('2025-10-12'), duration_seconds: 120, device: 'mobile'}]->(p);
+
+9. Product1 belongs to Electronics
+
+MATCH (p:Product {name:'Product1'}), (c:Category {name:'Electronics'})
+CREATE (p)-[:BELONGS_TO {added_date: date('2025-01-01')}]->(c);
+
+10. Product1 made by BrandA
+
+MATCH (p:Product {name:'Product1'}), (b:Brand {name:'BrandA'})
+CREATE (p)-[:MADE_BY {launch_year: 2024}]->(b);
+
+11. Alice rated Review1 and Review1 reviews Product1
+
+MATCH (u:User {name:'Alice'}), (r:Review {name:'Review1'}), (p:Product {name:'Product1'})
+CREATE (u)-[:RATED {review_date: date('2025-10-14')}]->(r)
+CREATE (r)-[:REVIEWS]->(p);
+
+12. Product1 similar to Product3
+
+MATCH (p1:Product {name:'Product1'}), (p3:Product {name:'Product3'})
+CREATE (p1)-[:SIMILAR_TO {similarity_score: 0.85}]->(p3);
+
+13. Alice friends with Bob
+
+MATCH (a:User {name:'Alice'}), (b:User {name:'Bob'})
+CREATE (a)-[:FRIENDS_WITH {since: date('2023-01-01'), interaction_count: 15}]->(b);
+
+14. Charlie bought Product2
+
+MATCH (u:User {name:'Charlie'}), (p:Product {name:'Product2'})
+CREATE (u)-[:BOUGHT {date: date('2025-10-14'), quantity: 1, price_paid: 29.99}]->(p);
+
+15. Alice viewed Product2
+
+MATCH (u:User {name:'Alice'}), (p:Product {name:'Product2'})
+CREATE (u)-[:VIEWED {date: date('2025-10-13'), duration_seconds: 45, device: 'desktop'}]->(p);
+
+
+QUERY SECTION (16–30)
+
+
+16. Find all products purchased by Alice
+
+MATCH (u:User {name:'Alice'})-[r:BOUGHT]->(p:Product)
+RETURN p.name AS product, r.quantity, r.date;
+
+17. Recommend products for Alice based on Bob's recent purchases
+
+MATCH (bob:User {name:'Bob'})-[r:BOUGHT]->(p:Product)
+WHERE r.date >= date() - duration('P30D')
+AND NOT EXISTS { MATCH (:User {name:'Alice'})-[:BOUGHT]->(p) }
+RETURN p.name AS recommended_products;
+
+18. List all products in Electronics category
+
+MATCH (p:Product)-[r:BELONGS_TO]->(c:Category {name:'Electronics'})
+RETURN p.name, r.added_date;
+
+19. Top 5 products by average rating
+
+MATCH (r:Review)-[:REVIEWS]->(p:Product)
+WITH p, avg(r.rating) AS avg_rating
+RETURN p.name, avg_rating
+ORDER BY avg_rating DESC
+LIMIT 5;
+
+20. Products made by BrandB
+
+MATCH (p:Product)-[m:MADE_BY]->(b:Brand {name:'BrandB'})
+RETURN p.name, m.launch_year;
+
+21. Users who viewed Product3 but didn't buy
+
+MATCH (u:User)-[v:VIEWED]->(p:Product {name:'Product3'})
+WHERE NOT (u)-[:BOUGHT]->(p)
+RETURN u.name, v.duration_seconds, v.device;
+
+22. Category with highest purchased quantity
+
+MATCH (:User)-[b:BOUGHT]->(p:Product)-[:BELONGS_TO]->(c:Category)
+WITH c.name AS category, sum(b.quantity) AS total_quantity
+RETURN category, total_quantity
+ORDER BY total_quantity DESC
+LIMIT 1;
+
+23. Users who rated Product1 with 5 stars
+
+MATCH (u:User)-[r:RATED]->(rev:Review {rating:5})-[:REVIEWS]->(p:Product {name:'Product1'})
+RETURN u.name, r.review_date;
+
+24. Suggest products similar to Product1
+
+MATCH (p1:Product {name:'Product1'})-[s:SIMILAR_TO]->(p2:Product)
+WHERE s.similarity_score > 0.8
+RETURN p2.name, s.similarity_score;
+
+25. Friends of Alice who purchased Product2
+
+MATCH (a:User {name:'Alice'})-[:FRIENDS_WITH]->(f:User)-[b:BOUGHT]->(p:Product {name:'Product2'})
+RETURN f.name, b.date;
+
+26. All reviews for Product2 with user and rating
+
+MATCH (u:User)-[:RATED]->(r:Review)-[:REVIEWS]->(p:Product {name:'Product2'})
+RETURN u.name AS reviewer, r.rating, r.review_date;
+
+27. Users who bought from multiple categories
+
+MATCH (u:User)-[:BOUGHT]->(p:Product)-[:BELONGS_TO]->(c:Category)
+WITH u, collect(DISTINCT c.name) AS cats, collect(p.name) AS prods
+WHERE size(cats) > 1
+RETURN u.name, prods, cats;
+
+28. Products viewed >100 seconds
+
+MATCH (u:User)-[v:VIEWED]->(p:Product)
+WHERE v.duration_seconds > 100
+RETURN DISTINCT p.name, v.duration_seconds;
+
+29. Recommend products based on friends’ purchases in last 30 days
+
+MATCH (a:User {name:'Alice'})-[:FRIENDS_WITH]->(f:User)-[b:BOUGHT]->(p:Product)
+WHERE b.date >= date() - duration('P30D')
+AND NOT EXISTS { MATCH (a)-[:BOUGHT]->(p) }
+RETURN DISTINCT p.name AS friend_recommendations;
+
+30. Products frequently bought with Product2
+
+MATCH (u:User)-[b1:BOUGHT]->(p1:Product {name:'Product2'}),(u)-[b2:BOUGHT]->(p2:Product)
+WHERE p1 <> p2
+RETURN p2.name AS also_bought, collect(b2.date) AS dates, count(*) AS freq
+ORDER BY freq DESC;
+
+
+UPDATE SECTION (31–40)
+
+
+31. Update price of Product1
+
+MATCH (p:Product {name:'Product1'}) SET p.price = 99.99;
+
+32. Add Product1 to Gadgets category
+
+MERGE (c:Category {name:'Gadgets'}) WITH c
+MATCH (p:Product {name:'Product1'})
+MERGE (p)-[:BELONGS_TO {added_date: date('2025-10-14')}]->(c);
+
+33. Update Alice's email
+
+MATCH (u:User {name:'Alice'}) SET u.email = 'alice_new@example.com';
+
+34. Update Review1 rating
+
+MATCH (r:Review {name:'Review1'}) SET r.rating = 4, r.updated_date = date('2025-10-15');
+
+35. Charlie bought Product3
+
+MATCH (u:User {name:'Charlie'}), (p:Product {name:'Product3'})
+MERGE (u)-[:BOUGHT {date: date('2025-10-14'), quantity: 1, price_paid: 39.99}]->(p);
+
+36. Change brand of Product3
+
+MATCH (p:Product {name:'Product3'})-[old:MADE_BY]->(b:Brand {name:'BrandC'})
+DELETE old
+MERGE (newBrand:Brand {name:'BrandD'})
+CREATE (p)-[:MADE_BY {launch_year: 2025}]->(newBrand);
+
+37. Rename Product2
+
+MATCH (p:Product {name:'Product2'}) SET p.name = 'BookMaster 2025';
+
+38. Rename Bob & Charlie
+
+MATCH (u:User) WHERE u.name IN ['Bob','Charlie']
+SET u.name = CASE u.name WHEN 'Bob' THEN 'Robert' WHEN 'Charlie' THEN 'Charles' END;
+
+39. Change category of Product3 to Sports
+
+MATCH (p:Product {name:'Product3'})-[rel:BELONGS_TO]->(old:Category {name:'Clothing'})
+DELETE rel
+MERGE (new:Category {name:'Sports'})
+CREATE (p)-[:BELONGS_TO {added_date: date('2025-10-14')}]->(new);
+
+40. Add discount to Product1
+
+MATCH (p:Product {name:'Product1'}) SET p.discount = '10%';
+
+
+
+DELETE SECTION (41–50)
+
+
+41. Delete Product50
+
+MATCH (p:Product {name:'Product50'}) DETACH DELETE p;
+
+42. Delete Review5 with rating 2
+
+MATCH (r:Review {name:'Review5', rating:2}) DETACH DELETE r;
+
+43. Remove BOUGHT between Alice and Product2
+
+MATCH (u:User {name:'Alice'})-[r:BOUGHT]->(p:Product {name:'BookMaster 2025'}) DELETE r;
+
+44. Delete category OldCategory
+
+MATCH (c:Category {name:'OldCategory'}) DETACH DELETE c;
+
+45. Delete user Tina
+
+MATCH (u:User {name:'Tina'}) DETACH DELETE u;
+
+46. Remove SIMILAR_TO Product1-Product3
+
+MATCH (p1:Product {name:'Product1'})-[r:SIMILAR_TO]->(p3:Product {name:'Product3'}) DELETE r;
+
+47. Delete all products made by BrandJ
+
+MATCH (b:Brand {name:'BrandJ'})<-[:MADE_BY]-(p:Product) DETACH DELETE p;
+
+48. Delete VIEWED before 2025-01-01 for Product3
+
+MATCH (u:User)-[v:VIEWED]->(p:Product {name:'Product3'})
+WHERE v.date < date('2025-01-01') DELETE v;
+
+49. Delete unbought/unreviewed products 48 & 49
+
+MATCH (p:Product)
+WHERE p.name IN ['Product48','Product49']
+AND NOT (p)<-[:BOUGHT]-(:User)
+AND NOT (p)<-[:REVIEWS]-(:Review)
+DETACH DELETE p;
+
+50. Delete Review3 only
+
+MATCH (r:Review {name:'Review3'}) DETACH DELETE r;
+
+
+// ANALYTICAL SECTION (51–60)
+
+51. Top 5 users by purchase quantity in Oct 2025
+
+MATCH (u:User)-[b:BOUGHT]->(p:Product)
+WHERE b.date >= date('2025-10-01') AND b.date <= date('2025-10-31')
+WITH u, sum(b.quantity) AS total_qty
+RETURN u.name, total_qty ORDER BY total_qty DESC LIMIT 5;
+
+52. Recommend products for Alice in Electronics
+
+MATCH (a:User {name:'Alice'})
+MATCH (a)-[:BOUGHT]->(:Product)-[:BELONGS_TO]->(:Category {name:'Electronics'})
+WITH a
+MATCH (:User)-[:BOUGHT]->(p:Product)-[:BELONGS_TO]->(:Category {name:'Electronics'})
+WHERE NOT (a)-[:BOUGHT]->(p)
+RETURN DISTINCT p.name AS recommended_electronics;
+
+53. Frequently bought with Product2 in last 30 days
+
+MATCH (u:User)-[b1:BOUGHT]->(p1:Product {name:'BookMaster 2025'}),(u)-[b2:BOUGHT]->(p2:Product)
+WHERE p1 <> p2 AND b2.date >= date() - duration('P30D')
+RETURN p2.name AS co_purchased_product, count(*) AS freq
+ORDER BY freq DESC LIMIT 5;
+
+54. Average rating for BrandA products
+
+MATCH (b:Brand {name:'BrandA'})<-[:MADE_BY]-(p:Product)<-[:REVIEWS]-(r:Review)
+WITH p, avg(r.rating) AS avg_rating
+RETURN p.name, avg_rating ORDER BY avg_rating DESC;
+
+55. Suggest products for Alice from friends’ purchases
+
+MATCH (a:User {name:'Alice'})-[:FRIENDS_WITH]->(f:User)-[b:BOUGHT]->(p:Product)
+WHERE NOT (a)-[:BOUGHT]->(p)
+RETURN DISTINCT p.name AS friend_recommendation, f.name AS friend, b.date
+ORDER BY b.date DESC;
+
+56. Users who bought items > ₹80
+
+MATCH (u:User)-[b:BOUGHT]->(p:Product) WHERE b.price_paid > 80
+RETURN u.name, p.name, b.price_paid;
+
+57. Categories by total revenue
+
+MATCH (u:User)-[b:BOUGHT]->(p:Product)-[:BELONGS_TO]->(c:Category)
+WITH c.name AS category, sum(b.price_paid * b.quantity) AS total_revenue
+RETURN category, total_revenue ORDER BY total_revenue DESC LIMIT 5;
+
+58. Products viewed >100s but never bought
+
+MATCH (u:User)-[v:VIEWED]->(p:Product)
+WHERE v.duration_seconds > 100 AND NOT (u)-[:BOUGHT]->(p)
+RETURN DISTINCT p.name, v.duration_seconds;
+
+59. Products with review count and avg rating
+
+MATCH (r:Review)-[:REVIEWS]->(p:Product)
+WITH p, count(r) AS review_count, avg(r.rating) AS avg_rating
+RETURN p.name, review_count, avg_rating ORDER BY avg_rating DESC;
+
+60. Bundled Product1, Product2, Product3
+
+MATCH (u:User)-[b:BOUGHT]->(p:Product)
+WHERE p.name IN ['Product1','BookMaster 2025','Product3']
+WITH u, collect(DISTINCT p.name) AS purchased
+WHERE size(purchased) > 1
+RETURN u.name AS user, purchased AS bundled_products;
