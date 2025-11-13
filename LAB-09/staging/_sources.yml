@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: sales        
+    database: SALES_DB
+    schema: SALES_SCHEMA
+    tables:
+      - name: customers
+      - name: employees
+      - name: offices
+      - name: orders
+      - name: orderdetails
+      - name: products
+      - name: productlines
+
+
